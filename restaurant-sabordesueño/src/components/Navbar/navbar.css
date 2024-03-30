@@ -1,0 +1,50 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    display: flex;
+    height: 120px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-item {
+    margin-right: 1rem;
+    position: relative;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+}
+
+.navar a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo {
+    width: 150px;
+}
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: brown;
+    color:white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    transform:translate(50%, -50%);
+}
+
+.comidas {
+    position: relative;
+}
