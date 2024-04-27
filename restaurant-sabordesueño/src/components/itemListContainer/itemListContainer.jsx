@@ -1,8 +1,8 @@
-import React from 'react'
+import { useEffect } from "react"
 
-function itemListContainer() {
+function itemListContainer({greeting}) {
   return (
-    <div>itemListContainer</div>
+    <div>{greeting}</div>
   )
 }
 
