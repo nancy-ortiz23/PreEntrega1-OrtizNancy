@@ -14,11 +14,11 @@ function Navbar() {
         </li>
 
         <li className="navbar-item">
-            <a href="#">galeria</a>
+            <a href="#">Menus</a>
         </li>
 
         <li className="navbar-item">
-            <a href="#">ubicacion</a>
+            <a href="#">Ubicacion</a>
         </li>
     </ul>
     <div className="comidas">
